@@ -7,7 +7,7 @@ const app = express();
 
 // const restaurantRoutes = require("./routes/restaurantRoutes");
 
-app.use(express.json());
+// app.use(express.json());
 
 app.get("/api/v1", (req,res)=>{
     res.status(200).json({
